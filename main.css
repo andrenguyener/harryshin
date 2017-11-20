@@ -1,6 +1,7 @@
 body {
     background-color: pink;
-
+    font-family: 'Comic Sans MS';
+    overflow-x: hidden;
 }
 
 #profilepic {
@@ -10,4 +11,25 @@ body {
 .familypic {
     float: left;
     max-height: 300px
+}
+
+ul {
+    text-align: right;
+    /*width: 100%;*/
+    height: 20px;
+    list-style: none;
+}
+
+li {
+    float: right;
+    text-decoration: none;
+}
+
+ul a {
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: red
 }
