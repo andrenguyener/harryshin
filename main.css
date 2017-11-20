@@ -2,4 +2,12 @@ body {
     background-color: pink;
 
 }
-    
+
+#profilepic {
+    max-height: 300px;
+}
+
+.familypic {
+    float: left;
+    max-height: 300px
+}
